@@ -1,0 +1,40 @@
+.die {
+  position: absolute;
+  left: -9999999999999999%;
+}
+
+body {
+  background-color: #000000;
+}
+
+th {
+  text-align: left;
+}
+
+
+input {
+  background-color: #000000;
+  border: none;
+  color: #00FF00;
+
+}
+
+input:focus {
+  outline: 0;
+}
+
+.bistro{
+  color: #00FF00;
+  font-family: Andale Mono;
+  font-size: 12px;
+}
+
+.bistro-style {
+
+}
+
+p {
+  color: #00FF00;
+  font-family: Andale Mono;
+  font-size: 12px;
+}

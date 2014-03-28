@@ -1,0 +1,49 @@
+<body onLoad="document.forms.command_line.input.focus()">
+<div id="com_hist">
+
+</div>""
+<form name="command_line" action="/notworking" method="post" class="bistro-style">
+  <label class="bistro">bernie@bistro: $ <input id="command" type="text" name="input" /></label>
+  <input type="submit" value="" />
+</form>
+<div id="sound">
+
+</div>
+
+</body>
+
+<script>
+
+
+$(document).ready(function() {
+    var lastID = 1;
+
+    $(document).on("keyup", function(evt) {
+        evt = evt || window.event;
+        var charCode = evt.keyCode || evt.which;
+        var charStr = String.fromCharCode(charCode);
+        if (charStr === "Z") {
+            $('body').append("<img id='" + lastID + "' src='kori2.jpg'>");
+
+            var w = window.innerWidth - 250;
+            var h = window.innerHeight - 300;
+            var topPosition = Math.floor(Math.random() * h);
+            var leftPosition = Math.floor(Math.random() * w);
+
+            $('.audio').hide();
+            $('#' + lastID).css({
+                position: 'absolute',
+                top: topPosition,
+                left: leftPosition
+            });
+
+            lastID++;
+        }
+    });
+})
+
+function hideIan(lastID) {
+    $('#' + lastID).hide();
+}
+
+</script>
