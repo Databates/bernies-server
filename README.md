@@ -1,4 +1,13 @@
-[](http://i.imgur.com/IHTe69C.jpg)
+
+###Created By: 
+
+![Kenny Luk](https://github.com/knnyluk)
+![Greg Santi...who knows](https://github.com/gsantikian)
+![Ian Bates](https://github.com/Databates)
+
+###Schema: 
+
+![](http://i.imgur.com/IHTe69C.jpg)
 
 
 ```sql 
