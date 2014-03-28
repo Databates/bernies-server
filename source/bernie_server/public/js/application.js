@@ -25,6 +25,10 @@ $(document).ready(function() {
       $("#com_hist").append("<p>" +peanut_butter.id + ". " + peanut_butter.name + "</p>");
       $("#com_hist").append("<p>" +poodle_cake.id + ". " + poodle_cake.name + "</p>");
 }
+
+    if (com === "clear") {
+      $("#com_hist").empty();
+    }
     // } else if (com === "display 1"){
     //   $("#com_hist").append("<p>" +kale_burger.id + " - " + kale_burger.name + "</p> <br /> <p>" + kale_burger.description "</p>");
     // }
