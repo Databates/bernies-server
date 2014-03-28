@@ -1,9 +1,9 @@
 
 ###Created By: 
 
-![Kenny Luk](https://github.com/knnyluk)
-![Greg Santi...who knows](https://github.com/gsantikian)
-![Ian Bates](https://github.com/Databates)
+[Kenny Luk](https://github.com/knnyluk)
+[Greg Santi...who knows](https://github.com/gsantikian)
+[Ian Bates](https://github.com/Databates)
 
 ###Schema: 
 
