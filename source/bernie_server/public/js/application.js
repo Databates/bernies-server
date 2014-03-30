@@ -29,6 +29,22 @@ $(document).ready(function() {
     if (com === "clear") {
       $("#com_hist").empty();
     }
+
+//sorry guys, i know this code sucks but I just wanted to get something up quick while taking a rails break: 
+     if (com === "display 1") {
+      $("#com_hist").append("<p>name: Kale Burger</p><p>description:<br>Combining the taste of cow with the nutrition of kale!</p> <p>ingredients:<br>Kale, Cow</p> <p>directions:<br>Preheat oven to 500 degrees, put in a cow. Wait 10 minutes. Put in some kale. Take out cow and kale. Put on bun. Serve HOT!</p>");
+    }
+
+     if (com === "display 2") {
+      $("#com_hist").append("<p>name: Poodle Cake (For your puppy!)</p><p>description:<br>Poodle Cake (For your puppy!), Poople cakes! Perfect for pet poodle!</p> <p>ingredients:<br>Kibble, Hot dogs</p> <p>directions:<br>Mix kibble with hot dog. Bake at 500 degrees for 25 minutes. DO NOT ADD CHOCOLATE</p>");
+    }
+
+    if (com === "display 3") {
+      $("#com_hist").append("<p>name: Peanut Butter Coffee Brownie</p><p>description:<br>Just looking has caused people to gain 10 pounds!</p> <p>ingredients:<br>Chocolate, Peanut Butter, Espresso, Cream Cheese</p> <p>directions:<br>Chew the espresso beans to a pulp, spit them into the bowl. Now mix in the chocolate, cream cheese, and peanut butter. Bake at 450 for 45 minutes</p>");
+    }
+
+
+
     // } else if (com === "display 1"){
     //   $("#com_hist").append("<p>" +kale_burger.id + " - " + kale_burger.name + "</p> <br /> <p>" + kale_burger.description "</p>");
     // }
